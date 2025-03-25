@@ -1,8 +1,9 @@
 export default function Hero() {
-    return (
-        <div className="p-12">
-            <h1 className="text-3xl font-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae corrupti rerum distinctio commodi dolor iste officia qui, assumenda quibusdam molestias asperiores eum, dolorem rem ullam cupiditate iure exercitationem culpa nobis?</h1>
-            <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. At ab minus fugit cupiditate veritatis, minima eveniet consequuntur autem unde cumque quaerat quasi dolorum porro praesentium, tenetur, repellat molestiae aut possimus.</p>
-        </div>
-    )
+	return (
+		<div className="flex flex-col items-center h-full text-center pt-24 justify-center">
+			<h1 className="text-5xl font-bold mb-6">Welcome to Quiz Reader</h1>
+			<p className="text-lg text-gray-400 mb-8 max-w-lg">Challenge yourself with AI-generated trivia questions.</p>
+			<button className="px-6 py-3 text-lg font-semibold bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600">Start Game</button>
+		</div>
+	);
 }
