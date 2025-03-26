@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import "../styles/globals.css";
-import { poppins } from "../utils/font";
+import "@/app/styles/globals.css";
+import { poppins } from "@/app/utils/font";
 
-import { Provider } from "../components/theme/Provider";
+import { Provider } from "@/app/components/theme/Provider";
 
 export const metadata: Metadata = {
 	title: "Quiz Reader",

@@ -66,7 +66,6 @@ export default function About() {
 							<a href="#" className="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline">
 								reading the license
 							</a>
-							.
 						</p>
 					</div>
 				</div>

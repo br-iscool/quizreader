@@ -1,6 +1,5 @@
-import Hero from "../components/pages/Hero";
-import Menu from "../components/pages/Menu";
-import Navbar from "../components/layout/Navbar";
+import Hero from "@/app/components/pages/Hero";
+import Navbar from "@/app/components/layout/Navbar";
 
 export default function Home() {
 	return (
@@ -8,7 +7,6 @@ export default function Home() {
 			<Navbar />
 			<div className="container mx-auto h-96">
 				<Hero />
-				<Menu />
 			</div>
 		</>
 	);

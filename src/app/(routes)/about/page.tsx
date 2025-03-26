@@ -1,5 +1,5 @@
-import About from "../../components/pages/About";
-import Navbar from "../../components/layout/Navbar";
+import About from "@/app/components/pages/About";
+import Navbar from "@/app/components/layout/Navbar";
 
 export default function Home() {
     return (
